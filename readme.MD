@@ -69,7 +69,7 @@ apk update && apk add curl bash
 使用 SSH 登录服务器，以 `root` 权限运行以下指令 **（如需设置变量，建议先复制到记事本中再修改）**：
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/eishare/Xray-go/main/xray-go.sh) reality"n" h3"y" argo protocol"http2" port"8001" domain"" token""
+bash <(curl -Ls https://raw.githubusercontent.com/wszx123/Xray-go/refs/heads/main/xray-go.sh) reality"n" h3"y" argo protocol"http2" port"8001" domain"" token""
  ```
 <br>
 
@@ -102,7 +102,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/eishare/Xray-go/main/xray-go.s
 部署方案未达预期？请使用以下指令卸载：
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/eishare/Xray-go/main/uninstall.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/wszx123/Xray-go/refs/heads/main/uninstall.sh)
 ```
 
 ---
